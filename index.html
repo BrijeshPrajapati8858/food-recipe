@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Food Recipe</title>
+</head>
+<body>
+    <header id="home" class="container"> 
+        <nav>
+            <div class="logo">🍴eAt</div>
+       
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+            <i class="fas fa-hamburger"></i>
+            </label>
+            <ul>
+                <li><a href="#Vegetarian">🥕vegetarian</a></li>
+                <li><a href="#Breakfast">🍵breakfast</a></li>
+                <li><a href="#Vegan">🥗vegan</a></li>
+                <li><a href="#Seafood">🐟seafood</a></li>
+                <li><a href="#about">🍲About</a></li>
+            </ul>
+         </nav>
+
+    </header>
+    
+    <div class="container hero ">
+        <div class="meal-wrapper flex a-c j-c j-c-m fd-c txt-c">
+            <div class="meal-search">
+                <h2 class="title">Find Meals for your Ingredients</h2>
+                <blockquote>"real food doesn't have ingredients, real food is ingredients"
+                
+                </blockquote>
+                <cite>-jamie oliver</cite>
+              <div class="meal-search-box flex a-c">
+                  <input type="text" class="search-control" placeholder="Search your favourite Igredient" id="search-input">
+                  <buttton class="search-btn btn flex a-c j-c" type="submit" id="search-btn">
+                      <i class="fas fa-search"></i>
+                  </buttton>
+              </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="arrow" ><h1><a href="#home">⬆️</a></h1> </div>
+    <div class="container">
+        
+        <div class="meal-result" id="meal-result">
+            <h2 class="title meal-title"> your search results: </h2>
+            <div id="meal">
+                
+            </div>
+        </div>
+
+        <div class="meal-details">
+            <button type="submit" class="btn recipe-close-btn" id="recipe-close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="meal-details-content flex fd-c txt-c">
+                <h2>meals name here</h2>
+                <p class="recipe-category">category name</p>
+
+                <div class="recipe-instruct">
+                    <h3 class="instruction:"></h3>
+                <p></p>
+                 
+            </div>
+            <div class="recipe-meal-img">
+                <img src="./assets/images/lily-banse--YHSwy6uqvk-unsplash.jpg" alt="">                    
+            </div>
+            <div class="recipe-link">
+                <a href="#" target="_blank">watch video</a>
+            </div>
+            </div>
+
+
+        </div>
+     </div>
+
+
+     <div class="container" id="Vegan">
+
+            <h2 class="cat-title">Vegan</h2>
+            <div class="cat-items-3 cat-items">
+               
+    
+            </div>
+    
+        </div>
+    <div class="container second-section">
+        <div class="section-2 flex j-sb a-c">
+            <div class="left">
+            
+            </div>
+            <div class="right">
+                <h2>Let's start Cooking with popular recipes</h2>
+                <p>want to learn cook but confused how to start?</p>
+                <p>no need to worry again!</p>
+                
+                <button class="btn">Get Started</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container" id="Vegetarian">
+
+        <h2 class="cat-title">Vegetarian</h2>
+        <div class="cat-items-1 cat-items">
+           
+
+        </div>
+
+    </div>
+    <div class="container" id="Breakfast">
+
+        <h2 class="cat-title">Breakfast</h2>
+        <div class="cat-items-2 cat-items">
+           
+
+        </div>
+
+    </div>
+
+    <div class="container" id="Seafood">
+
+        <h2 class="cat-title" >Sea food</h2>
+        <div class="cat-items-4 cat-items">
+           
+
+        </div>
+
+    </div>
+
+    <div class="container" id="about">
+        <div class="about-item">
+            <div class="about-content">
+                <h2>WE’RE AT EVERY TABLE</h2>
+                <h4>YOUR PARTNER IN THE BUSINESS OF FOOD</h4>
+                <p>US Foods® is one of America’s great food companies and a leading foodservice distributor, partnering with approximately 300,000 restaurants and foodservice operators to help their businesses succeed. With nearly 28,000 employees and more than 70 locations, we provide our customers with a broad and innovative food offering and a comprehensive suite of e-commerce, technology and business solutions.</p>
+
+            </div>
+        </div>
+        <div class="footer">
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="#">  <i class="fa-brands fa-youtube-square"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            
+            
+          
+            
+
+        </div>
+
+    </div>
+
+
+
+   
+   
+  
+    <script src="./index.js"></script>
+</body>
+</html>
